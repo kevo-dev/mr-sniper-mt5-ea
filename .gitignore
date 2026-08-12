@@ -1,0 +1,27 @@
+# MetaTrader 5 build and local test artefacts
+*.ex5
+*.log
+*.csv
+*.html
+*.htm
+*.xml
+*.tmp
+*.bak
+*.fxt
+*.hcc
+*.hst
+*.dat
+
+# Local reports and generated Monte Carlo outputs
+monte_carlo_summary.json
+reports/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
